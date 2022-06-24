@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Drink Water Reminder</string>
+    <string name="water">Water</string>
+    <string name="coffee">Coffee</string>
+    <string name="tea">Tea</string>
+    <string name="juice">Juice</string>
+    <string name="milk">Milk</string>
+    <string name="yogurt">Yogurt</string>
+    <string name="energy">Energy</string>
+    <string name="beer">Beer</string>
+    <string name="alert_dialog_builder_homeFrag">Delete the drink ?</string>
+    <string name="alert_dialog_builder_homeFrag_yes">Yes</string>
+    <string name="alert_dialog_builder_homeFrag_no">No</string>
+</resources>

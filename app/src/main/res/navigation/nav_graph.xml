@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeNavFrag">
+    <fragment android:id="@+id/homeNavFrag">
+        <action
+            android:id="@+id/action_homeNavFrag_to_settingNavFrag"
+            app:destination="@id/settingNavFrag" />
+        <action
+            android:id="@+id/action_homeNavFrag_to_drinksNavFrag"
+            app:destination="@id/drinksNavFrag" />
+        <action
+            android:id="@+id/action_homeNavFrag_self"
+            app:destination="@id/homeNavFrag" />
+    </fragment>
+    <fragment android:id="@+id/historyNavFrag" />
+    <fragment android:id="@+id/notificationNavFrag" />
+    <fragment android:id="@+id/settingNavFrag" />
+    <fragment android:id="@+id/drinksNavFrag" />
+</navigation>
